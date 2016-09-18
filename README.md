@@ -5,6 +5,13 @@ Elixir, it can also be used to test other types of Elixir apps.
 However, given a bunch of other components are also pre-installed such as
 ImageMagick, PhantomJS etc, it's more specialised towards Phoenix apps.
 
+## Installed Components
+* Elixir 1.3
+* Phoenix 1.2
+* PhantomJS (latest)
+* ImageMagick (latest)
+* zsh (latest)
+
 ## Example Dockerfile
 ```
 FROM marvellousmutants/phoenix:latest
