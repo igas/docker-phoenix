@@ -9,9 +9,6 @@ ImageMagick, PhantomJS etc, it's more specialised towards Phoenix apps.
 ```
 FROM marvellousmutants/phoenix:latest
 
-# Install phantomjs
-RUN npm install -g phantomjs-prebuilt
-
 # Create working directory
 RUN mkdir /app
 WORKDIR /app
