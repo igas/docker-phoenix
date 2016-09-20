@@ -19,7 +19,8 @@ RUN touch /etc/init.d/couchdb
 RUN wget http://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb \
   && dpkg -i erlang-solutions_1.0_all.deb \
   && apt-get update \
-  && apt-get install -y elixir esl-erlang \
+  && apt-get install esl-erlang \
+  && apt-get install elixir=1.3.3 \
   && rm erlang-solutions_1.0_all.deb
 
 ENV PHOENIX_VERSION 1.2.0
