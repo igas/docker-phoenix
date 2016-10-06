@@ -17,7 +17,6 @@ ImageMagick, PhantomJS etc, it's more specialised towards Phoenix apps.
 FROM marvellousmutants/phoenix:latest
 
 # Create working directory
-RUN mkdir /app
 WORKDIR /app
 
 # Get your app and add it to the working directory
